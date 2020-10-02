@@ -1,0 +1,34 @@
+.logo {
+	display: block;
+	margin: 0 auto;
+	margin-top: 178px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-image: url(voorbeeld/header_bg.jpg);
+	background-size: cover;
+}
+
+.balk {
+	width: 650px;
+	margin: 0 auto;
+	margin-top: 35px;
+	border: 1px solid red;
+}
+
+span, i {
+	color: white;
+}
+
+.menu_home, .menu_features {
+	display: inline-block;
+	text-align: center;
+	padding: 15px;
+}
+
+.fa.fa-home, .fa.fa-gears {
+	display: block;
+	font-size: 19px;
+	margin: 5px;
+}
