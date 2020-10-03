@@ -10,25 +10,38 @@ body {
 	background-size: cover;
 }
 
+.h1 {
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255, 255, 255, 0.8);
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+	font-size: 40px;
+}
+
 .balk {
 	width: 650px;
 	margin: 0 auto;
 	margin-top: 35px;
-	border: 1px solid red;
 }
 
 span, i {
-	color: white;
+	color: rgba(255, 255, 255, 0.8);
 }
 
-.menu_home, .menu_features {
+.menu_home, .menu_features, .menu_pages, .menu_portfolio, .menu_blog, .menu_contact {
 	display: inline-block;
 	text-align: center;
-	padding: 15px;
+	padding: 19.5px;
 }
 
-.fa.fa-home, .fa.fa-gears {
+.fa.fa-home, .fa.fa-gears, .fa.fa-copy, .fa.fa-th, .fa.fa-font, .fa.fa-comment {
 	display: block;
 	font-size: 19px;
 	margin: 5px;
+}
+
+a {
+	text-decoration: none;
 }
